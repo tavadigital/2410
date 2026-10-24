@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anti Toxic Team Building | Kamu Bukan Kurang Tegas, Kamu Cuma Belum Punya Kalimatnya</title>
+<meta name="description" content="Web app skrip bicara untuk leader yang menghadapi karyawan toxic: diagnosis, skrip teguran 3 nada, 24 jawaban saat dia ngeles, dan Program 14 Hari. Dibuka dari browser, tanpa install.">
+<meta property="og:title" content="Anti Toxic Team Building | Kamu Bukan Kurang Tegas, Kamu Cuma Belum Punya Kalimatnya">
+<meta property="og:description" content="Skrip teguran dari kejadian nyata, jawaban saat dia ngeles, dan Program 14 Hari. Tegas tanpa emosi, tanpa drama. Tanpa install, tanpa akun.">
+<meta name="theme-color" content="#1F3A5F">
+<link rel="icon" type="image/png" sizes="64x64" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pri:#152A46;
+  --pri-mid:#1F3A5F;
+  --pri-soft:#E3EAF3;
+  --pri-deep:#0F1F35;
+  --madu:#E8A33D;
+  --madu-soft:#FBEFD9;
+  --madu-text:#8A5A12;
+  --bara:#B8452F;
+  --bara-soft:#FBE9E5;
+  --bg:#F6F4EF;
+  --pasir:#EEEBE3;
+  --card:#FFFFFF;
+  --line:#DFDAD0;
+  --line-soft:#E9E5DC;
+  --ink:#1B2430;
+  --muted:#5A6472;
+  --muted-light:#7E8794;
+  --sans:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --radius:14px;
+  --radius-lg:20px;
+  --sinyal:#E8A33D;
+  --sinyal-deep:#A86A12;
+  --maxw:1120px;
+  --maxw-text:680px;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.65;overflow-x:hidden;}
+img{max-width:100%;height:auto;display:block;}
+a{color:inherit;}
+h1,h2,h3,h4{margin:0;line-height:1.2;letter-spacing:-0.02em;color:var(--pri);font-family:var(--sans);}
+h1{font-size:clamp(31px,5.8vw,50px);font-weight:800;letter-spacing:-0.03em;line-height:1.1;}
+h2{font-size:clamp(25px,4.2vw,36px);font-weight:800;}
+h3{font-size:clamp(20px,2.6vw,24px);font-weight:700;}
+h4{font-size:17px;font-weight:700;}
+p{margin:0 0 1rem;}
+p:last-child{margin-bottom:0;}
+strong{font-weight:700;color:var(--pri);}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px;}
+.narrow{max-width:var(--maxw-text);margin-left:auto;margin-right:auto;}
+section{padding:56px 0;}
+@media(min-width:768px){section{padding:76px 0;}}
+.sec-alt{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.sec-deep{background:var(--pri-deep);color:#fff;}
+.sec-deep h2,.sec-deep h3{color:#fff;}
+.eyebrow{font-size:13.5px;font-weight:700;color:var(--pri-mid);margin:0 0 10px;}
+.eyebrow-bara{color:var(--bara);}
+.eyebrow-madu{color:var(--madu-text);}
+.lead{font-size:clamp(17px,2vw,19px);color:var(--muted);}
+.sec-deep .lead{color:#C9D6E6;}
+.center{text-align:center;}
+
+/* header */
+.site-head{background:var(--card);border-bottom:1px solid var(--line);padding:14px 0;position:relative;z-index:5;}
+.logo{display:inline-block;font-family:var(--sans);font-size:20px;font-weight:800;letter-spacing:-0.02em;color:var(--ink);text-decoration:none;line-height:1.2;}
+.logo em{font-style:normal;color:var(--pri-mid);}
+
+/* buttons */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  background:var(--sinyal);color:var(--ink);text-decoration:none;
+  font-weight:800;font-size:17px;letter-spacing:-0.01em;
+  padding:17px 28px;border-radius:12px;border:none;cursor:pointer;
+  box-shadow:0 3px 0 var(--sinyal-deep);
+  transition:transform .12s ease,box-shadow .12s ease,background .12s ease;
+  text-align:center;width:100%;
+}
+@media(min-width:560px){.btn{width:auto;font-size:18px;padding:18px 34px;}}
+.btn:hover{background:#D9922E;transform:translateY(-1px);box-shadow:0 4px 0 var(--sinyal-deep);}
+.btn:active{transform:translateY(2px);box-shadow:0 1px 0 var(--sinyal-deep);}
+.btn:focus-visible{outline:3px solid var(--pri-mid);outline-offset:3px;}
+.sec-deep .btn{background:var(--sinyal);color:var(--ink);box-shadow:0 3px 0 #0A1626;}
+.sec-deep .btn:hover{background:#D9922E;}
+.btn-note{font-size:14.5px;color:var(--muted);margin-top:12px;}
+.sec-deep .btn-note{color:#9FB2CB;}
+.cta-block{margin-top:26px;}
+
+/* hero */
+.hero{background:var(--card);padding:28px 0 44px;border-bottom:1px solid var(--line);}
+.hero-grid{display:block;}
+.hero-img{margin:22px -20px 24px;}
+@media(min-width:900px){
+  .hero{padding:64px 0 72px;}
+  .hero-grid{display:grid;grid-template-columns:1fr 460px;grid-template-areas:"hd img" "rest img";column-gap:56px;align-items:center;}
+  .hero-hd{grid-area:hd;align-self:end;}
+  .hero-rest{grid-area:rest;align-self:start;padding-top:18px;}
+  .hero-img{grid-area:img;margin:0;align-self:center;}
+  .hero-img img{border-radius:var(--radius-lg);}
+}
+.hero-bullets{list-style:none;padding:0;margin:22px 0 0;}
+.hero-bullets li{position:relative;padding-left:30px;margin-bottom:12px;font-size:16.5px;color:var(--ink);}
+.hero-bullets li::before{content:"";position:absolute;left:0;top:8px;width:16px;height:16px;border-radius:50%;background:var(--pri-soft);border:2px solid var(--pri-mid);}
+.hero-bullets b{color:var(--pri);}
+.hero-facts{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:20px;font-size:14.5px;color:var(--muted);font-weight:600;}
+.hero-facts span{white-space:nowrap;}
+
+/* cards */
+.grid{display:grid;gap:18px;}
+@media(min-width:760px){.grid-3{grid-template-columns:repeat(3,1fr);}}
+@media(min-width:640px){.grid-2{grid-template-columns:repeat(2,1fr);}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;}
+.sec-alt .card{background:var(--bg);}
+.card-quote{font-size:20px;font-weight:800;color:var(--bara);margin:0 0 10px;line-height:1.3;letter-spacing:-0.01em;}
+.card p{font-size:16px;color:var(--muted);}
+.card h3{margin-bottom:10px;}
+
+.pilar{border-left:4px solid var(--pri-mid);padding:4px 0 4px 18px;margin-bottom:20px;}
+.pilar.p-anak{border-color:#7DB283;}
+.pilar.p-ortu{border-color:var(--madu);}
+.pilar.p-darurat{border-color:var(--bara);}
+.pilar h4{margin-bottom:4px;color:var(--pri);}
+.pilar p{font-size:16px;color:var(--muted);margin:0;}
+.pilar p b{color:var(--pri);}
+.golden{margin-top:28px;font-size:25px;font-weight:800;color:var(--pri);margin-bottom:6px;line-height:1.3;letter-spacing:-0.02em;}
+
+/* steps */
+.step{display:grid;gap:20px;padding:28px 0;border-top:1px solid var(--line);}
+.narrow + .step{border-top:none;}
+@media(min-width:1024px){
+  .step.dimg{grid-template-columns:1fr 1.45fr;gap:48px;align-items:center;}
+  .step-img{order:2;}
+}
+.step-num{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:var(--pri-mid);color:#fff;font-weight:800;font-size:16px;margin-bottom:12px;}
+.step-copy p{color:var(--muted);margin-top:10px;}
+.step-wide{display:block;}
+.step-wide .step-copy{max-width:var(--maxw-text);}
+
+/* screenshot frames */
+.shot{border:1px solid var(--line);border-radius:14px;background:var(--card);box-shadow:0 1px 3px rgba(21,42,70,.08);}
+.shot-r{max-width:300px;width:100%;margin-left:auto;margin-right:auto;}
+@media(min-width:1024px){.shot-r{max-width:100%;}}
+[data-zoom]{cursor:zoom-in;}
+.m-only{display:inline;}
+@media(min-width:700px){.m-only{display:none;}}
+figure{margin:0;}
+figcaption{font-size:13.5px;color:var(--muted);margin-top:8px;text-align:center;}
+
+/* feature rows */
+.feat{display:grid;gap:24px;padding:40px 0;border-top:1px solid var(--line);}
+@media(min-width:1024px){
+  .feat.dimg{grid-template-columns:1fr 1.45fr;gap:48px;align-items:center;}
+  .feat.dimg.flip{grid-template-columns:1.45fr 1fr;}
+  .feat-img{order:2;}
+  .feat.flip .feat-img{order:1;}
+  .feat.flip .feat-copy{order:2;}
+}
+.feat-copy h3{margin-bottom:12px;}
+.feat-copy p{color:var(--muted);font-size:16.5px;}
+.feat-pair{padding-top:40px;border-top:1px solid var(--line);}
+
+/* alat */
+.alat-tabs{display:none;}
+.alat-track{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:4px 20px 6px;margin:0 -20px;}
+.alat-track::-webkit-scrollbar{display:none;}
+.alat-item{flex:0 0 80%;scroll-snap-align:center;}
+.alat-item h3{font-size:19px;margin:16px 0 6px;}
+.alat-item p{font-size:15.5px;color:var(--muted);margin:0;}
+.alat-dots{display:flex;justify-content:center;gap:8px;margin-top:18px;}
+.alat-dots button,.testi-dots button{width:8px;height:8px;padding:0;border:none;border-radius:50%;background:var(--line);cursor:pointer;transition:background .2s ease,width .2s ease;}
+.alat-dots button.on,.testi-dots button.on{background:var(--pri-mid);width:22px;border-radius:5px;}
+.alat-dots button:focus-visible,.testi-dots button:focus-visible{outline:2px solid var(--pri-mid);outline-offset:3px;}
+@media(min-width:1024px){
+  .alat-tabs{display:flex;justify-content:center;gap:8px;margin-bottom:26px;flex-wrap:wrap;}
+  .alat-tabs button{font:inherit;font-size:15.5px;font-weight:700;color:var(--pri);background:var(--card);border:1.5px solid var(--line);border-radius:999px;padding:10px 20px;cursor:pointer;}
+  .alat-tabs button[aria-selected="true"]{background:var(--pri-mid);border-color:var(--pri-mid);color:#fff;}
+  .alat-tabs button:focus-visible{outline:3px solid var(--madu);outline-offset:2px;}
+  .alat-track{display:block;overflow:visible;padding:0;margin:0;}
+  .alat-item{display:none;}
+  .alat-item.on{display:grid;grid-template-columns:1.6fr 1fr;gap:40px;align-items:center;}
+  .alat-item h3{font-size:24px;margin:0 0 10px;}
+  .alat-item p{font-size:16.5px;}
+  .alat-dots{display:none;}
+}
+.also{max-width:var(--maxw-text);margin:34px auto 0;text-align:center;font-size:16px;color:var(--muted);}
+
+/* jelas */
+.clear-card p{color:var(--muted);font-size:16.5px;}
+.clear-yes{border-top:4px solid var(--pri-mid);}
+.clear-no{border-top:4px solid var(--madu);}
+
+.fitlist{list-style:none;padding:0;margin:0;}
+.fitlist li{position:relative;padding-left:30px;margin-bottom:13px;font-size:16.5px;}
+.fitlist li::before{position:absolute;left:0;top:0;font-weight:800;font-size:17px;}
+.fit-yes li::before{content:"✓";color:var(--pri-mid);}
+.fit-no li::before{content:"✕";color:var(--bara);}
+
+/* table */
+.tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%;border:1px solid var(--line);border-radius:var(--radius);}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:15.5px;background:var(--card);}
+th,td{padding:14px 16px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;}
+tbody tr:last-child th,tbody tr:last-child td{border-bottom:none;}
+thead th{font-size:13.5px;font-weight:700;color:var(--muted);border-bottom:2px solid var(--line);}
+thead th.hl{color:var(--pri);}
+tbody td.hl{font-weight:700;color:var(--pri);background:var(--pri-soft);}
+tbody th{font-weight:600;color:var(--ink);width:19%;}
+
+/* testimoni */
+.testi-grid{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:4px 20px 6px;margin:0 -20px;}
+.testi-grid::-webkit-scrollbar{display:none;}
+.testi-grid img{flex:0 0 78%;scroll-snap-align:center;width:100%;height:auto;border:1px solid var(--line);border-radius:16px;background:var(--card);box-shadow:0 1px 3px rgba(21,42,70,.08);}
+.testi-dots{display:flex;justify-content:center;gap:8px;margin-top:16px;}
+@media(min-width:700px){
+  .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;overflow:visible;padding:0;margin:0;}
+  .testi-grid img{flex:none;}
+  .testi-dots{display:none;}
+}
+
+/* nilai (naratif) */
+.story{max-width:var(--maxw-text);margin:0 auto 34px;}
+.story p{font-size:clamp(17px,2vw,18.5px);color:var(--muted);}
+.story p.punch{font-size:clamp(19px,2.4vw,22px);font-weight:700;color:var(--pri);line-height:1.45;margin-top:22px;}
+.price-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-lg);padding:26px 22px;max-width:620px;margin:0 auto;}
+.sec-alt .price-card{background:var(--bg);}
+@media(min-width:640px){.price-card{padding:36px;}}
+.incl{list-style:none;padding:0;margin:18px 0 0;}
+.incl li{position:relative;padding:10px 0 10px 30px;border-bottom:1px solid var(--line-soft);font-size:16px;}
+.incl li:last-child{border-bottom:none;}
+.incl li::before{content:"✓";position:absolute;left:0;top:10px;font-weight:800;color:var(--pri-mid);}
+.once-box{text-align:center;background:var(--madu-soft);border-radius:var(--radius);padding:18px 20px;margin:24px 0 0;font-size:16.5px;color:var(--ink);}
+.once-box b{display:block;font-size:19px;color:var(--pri);margin-bottom:2px;}
+
+.flow{max-width:620px;margin:40px auto 0;}
+.flow h3{text-align:center;margin-bottom:18px;font-size:clamp(19px,2.4vw,22px);}
+.flow ol{list-style:none;padding:0;margin:0;counter-reset:f;}
+.flow li{counter-increment:f;position:relative;padding:0 0 18px 48px;font-size:16px;color:var(--muted);}
+.flow li:last-child{padding-bottom:0;}
+.flow li::before{content:counter(f);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;background:var(--pri-soft);color:var(--pri);font-weight:800;display:flex;align-items:center;justify-content:center;font-size:15px;}
+.flow li b{display:block;color:var(--pri);font-size:16.5px;}
+
+/* faq */
+.faq-key{background:var(--card);border:3px solid var(--madu);border-radius:var(--radius);padding:22px;margin-bottom:16px;}
+.faq-key h3{font-size:clamp(20px,3.2vw,23px);margin-bottom:12px;}
+.faq-key p{font-size:17.5px;color:var(--muted);margin:0 0 10px;}
+.faq-key ol{margin:0;padding:0 0 0 24px;font-size:clamp(17.5px,2.6vw,19px);line-height:1.5;}
+.faq-key li{margin-bottom:10px;padding-left:4px;}
+.faq-key li:last-child{margin-bottom:0;}
+.faq-key li::marker{font-weight:800;color:var(--madu-text);}
+.faq-key b{color:var(--pri);}
+.faq{border-top:1px solid var(--line);margin-top:30px;}
+.faq details{border-bottom:1px solid var(--line);}
+.faq summary{cursor:pointer;padding:18px 34px 18px 0;position:relative;font-weight:700;font-size:16.5px;color:var(--pri);list-style:none;}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::after{content:"";position:absolute;right:6px;top:26px;width:9px;height:9px;border-right:2.5px solid var(--pri-mid);border-bottom:2.5px solid var(--pri-mid);transform:rotate(45deg);transition:transform .18s ease;}
+.faq details[open] summary::after{transform:rotate(-135deg);top:28px;}
+.faq summary:focus-visible{outline:2px solid var(--pri-mid);outline-offset:2px;}
+.faq .ans{padding:0 0 20px;color:var(--muted);font-size:16.5px;}
+
+.closing-line{font-size:25px;font-weight:800;color:#fff;margin-top:24px;line-height:1.3;letter-spacing:-0.02em;}
+
+/* sticky bar */
+.sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--card);border-top:1px solid var(--line);padding:10px 16px;box-shadow:0 -3px 14px rgba(21,42,70,.12);display:flex;align-items:center;gap:12px;transform:translateY(110%);transition:transform .25s ease;}
+.sticky-cta.on{transform:translateY(0);}
+.sticky-cta .sp{flex:1;min-width:0;}
+.sticky-cta .sp b{display:block;font-size:16.5px;color:var(--pri);line-height:1.2;}
+.sticky-cta .sp small{font-size:12.5px;color:var(--muted);}
+.sticky-cta .btn{width:auto;padding:14px 22px;font-size:15.5px;flex-shrink:0;}
+@media(min-width:900px){.sticky-cta{display:none;}}
+body.has-sticky{padding-bottom:82px;}
+@media(min-width:900px){body.has-sticky{padding-bottom:0;}}
+
+/* footer */
+.site-foot{background:var(--card);border-top:1px solid var(--line);padding:30px 0;text-align:center;}
+.site-foot .logo{display:block;margin-bottom:6px;}
+.site-foot small{font-size:13.5px;color:var(--muted-light);}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(8,18,33,.92);display:none;align-items:center;justify-content:center;padding:56px 12px 20px;}
+.lb.on{display:flex;}
+.lb-inner{max-width:1400px;width:100%;max-height:100%;overflow:auto;-webkit-overflow-scrolling:touch;border-radius:10px;}
+.lb img{width:auto;max-width:100%;max-height:86vh;margin:0 auto;border-radius:10px;}
+.lb-close{position:absolute;top:12px;right:12px;width:40px;height:40px;border-radius:50%;background:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;}
+.lb-close:focus-visible{outline:3px solid var(--madu);outline-offset:2px;}
+.lb-close svg{width:18px;height:18px;}
+
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;}}
+.pilar.pl-skill{border-color:#2E8B6E;}
+.pilar.pl-sikap{border-color:#C2553B;}
+.pilar.pl-manip{border-color:#7A4FA0;}
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Anti Toxic Team Building, halaman utama">Anti Toxic <em>Team Building</em></a>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-hd">
+        <h1>Kamu bukan kurang tegas. Kamu cuma belum punya kalimatnya.</h1>
+      </div>
+      <div class="hero-img">
+        <img src="img/hero-mockup.webp" alt="Anti Toxic Team Building: tegur karyawan toxic tanpa emosi dan drama, dengan skrip teguran, jawaban anti ngeles, dan panduan 14 hari" width="1122" height="1402" fetchpriority="high">
+      </div>
+      <div class="hero-rest">
+        <p class="lead">Anti Toxic Team Building adalah web app pendamping leader yang sedang menghadapi satu karyawan toxic. Isi kejadiannya, app menyusun skrip bicara dengan urutan Fakta, Dampak, Standar, Konsekuensi, Komitmen. Dijalankan bertahap dalam Program 14 Hari.</p>
+        <ul class="hero-bullets">
+          <li><b>"Takut malah aku yang kelihatan jahat."</b> Skrip berbasis data, bukan perasaan. Yang dibahas kejadiannya, bukan orangnya.</li>
+          <li><b>"Dia jago ngeles dan balik nyerang."</b> 24 jawaban siap pakai untuk saat dia ngeles, playing victim, atau mengungkit masa lalu.</li>
+          <li><b>"Aku gak tahu dia kurang skill atau memang sikapnya."</b> Diagnosis 2 langkah sebelum menegur, supaya kamu gak salah obat.</li>
+        </ul>
+        <div class="cta-block">
+          <a class="btn" href="checkout.html">Siapkan Skrip Pertama Malam Ini →</a>
+          <p class="btn-note">Dibuka dari browser HP atau laptop. Tanpa install, tanpa akun.</p>
+        </div>
+        <div class="hero-facts">
+          <span>14 hari program</span>
+          <span>24 jawaban siap pakai</span>
+          <span>5 langkah urutan bicara</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ADEGAN -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:34px;">
+      <h2>Baca tiga ini. Kalau ada satu yang kejadian minggu ini, kamu di tempat yang benar.</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <p class="card-quote">“Yang lain juga gitu kok, Pak. Kenapa saya doang?”</p>
+        <p>Kamu sudah siap menegur. Satu kalimat itu keluar, dan kamu mundur. Besoknya dia telat lagi.</p>
+      </div>
+      <div class="card">
+        <p class="card-quote">“Saya resign, Pak. Saya capek kerja dobel.”</p>
+        <p>Bukan dari orang yang bermasalah. Dari orang terbaikmu, yang selama ini menutup kerjaan orang lain.</p>
+      </div>
+      <div class="card">
+        <p class="card-quote">“Yang rajin dikasih kerjaan terus ya, yang deket bos mah aman.”</p>
+        <p>Sindiran di grup WA tim. Beberapa membalas emoji tertawa. Kamu baca, lalu diam.</p>
+      </div>
+    </div>
+    <p class="narrow lead center" style="margin-top:30px;">Tiga adegan ini kelihatan beda. Akarnya sama, dan bukan karena kamu kurang sabar atau kurang baik. Kamu masuk ke percakapan sulit tanpa urutan bicara.</p>
+  </div>
+</section>
+
+<!-- MEKANISME -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow">
+      <h2>Leader gagal bukan karena kurang tegas. Tapi karena tidak punya urutan.</h2>
+      <p style="margin-top:18px;">Opini memancing debat. "Kamu ini malas" bisa dibantah. "Tiga kali telat kirim bulan ini, tanggal 5, 12, dan 19" tidak.</p>
+      <p>Sebelum menegur, app memastikan kamu tahu sedang menghadapi apa:</p>
+      <div style="margin-top:26px;">
+        <div class="pilar pl-skill"><h4>Kurang skill</h4><p>Tahu mau, belum tahu caranya. Butuh pembinaan, bukan teguran keras.</p></div>
+        <div class="pilar pl-sikap"><h4>Pembangkang</h4><p>Melawan terbuka, banyak alasan, defensif. Butuh struktur dan konsekuensi.</p></div>
+        <div class="pilar pl-manip"><h4>Manipulator</h4><p>Manis di depan, main di belakang. Butuh ruang privat, data silang, dan catatan tertulis.</p></div>
+      </div>
+      <p style="margin-top:26px;">App menyesuaikan dengan hasil diagnosis: kasus skill gap dapat skrip versi pembinaan, kasus pembangkang dapat skrip teguran 3 nada, kasus manipulator dapat modul klarifikasi.</p>
+      <p class="golden">Targetnya bukan menang debat. Targetnya percakapan yang selesai dengan komitmen yang jelas.</p>
+      <p style="color:var(--muted);">Aturan yang dijaga app: setiap skrip berhenti di jeda 3 detik dan pertanyaan "Bisa saya pegang komitmen ini?". Kamu tidak perlu jadi galak. Cukup ikuti urutannya.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CARA KERJA -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:10px;">
+      <h2>Kamu gak perlu jago ngomong dulu. App-nya yang nuntun.</h2>
+    </div>
+    <div class="step step-wide">
+      <div class="step-copy">
+        <div class="step-num">1</div>
+        <h3>Masukkan kode akses</h3>
+        <p>Kodenya ada di Panduan Akses di emailmu. Cukup sekali di tiap perangkat, setelah itu tersimpan.</p>
+      </div>
+    </div>
+    <div class="step dimg">
+      <div class="step-copy">
+        <div class="step-num">2</div>
+        <h3>Diagnosis 2 langkah</h3>
+        <p>Centang perilaku yang terjadi berulang. App memberi hasil: skill gap, pembangkang, manipulator, atau data belum cukup. Tombol di bawah hasil langsung membuka langkah berikutnya.</p>
+      </div>
+      <div class="step-img">
+        <picture><source media="(min-width:1024px)" srcset="img/diagnosis-d.webp" width="1400" height="875"><img class="shot shot-r" data-zoom src="img/diagnosis.webp" alt="Layar hasil diagnosis kasus Fikri: pola pembangkang, dengan penjelasan dan tombol Kumpulkan 3 fakta lalu racik skrip" width="728" height="1575" loading="lazy"></picture>
+      </div>
+    </div>
+    <div class="step step-wide">
+      <div class="step-copy">
+        <div class="step-num">3</div>
+        <h3>Mulai Hari 1</h3>
+        <p>Program 14 Hari membuka satu fokus per hari, dari bongkar pola lama sampai reset standar tim. Hari berikutnya terbuka besok, jadi kamu gak buru-buru.</p>
+      </div>
+    </div>
+    <div class="cta-block narrow center" style="margin-top:34px;">
+      <a class="btn" href="checkout.html">Siapkan Skrip Pertama Malam Ini →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FITUR -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center">
+      <h2>Yang kamu pakai tiap hari</h2>
+    </div>
+    <div class="feat dimg" style="border-top:none;">
+      <div class="feat-copy">
+        <p class="eyebrow">Malam sebelum menegur</p>
+        <h3>Jam 9 malam, kamu isi tiga kejadian. Lima menit kemudian skripnya jadi.</h3>
+        <p style="margin-top:12px;">Isi fakta, dampak, standar, konsekuensi, dan komitmen yang kamu minta. Pilih nada: Tenang untuk pertama kali, Tegas kalau sudah pernah ditegur, Sangat tegas kalau komitmen sudah dilanggar.</p>
+        <p>Kalau yang kamu tulis terdengar seperti opini, misalnya "malas", app memberi tanda. Tekan Salin skrip, baca keras dua kali.</p>
+      </div>
+      <div class="feat-img">
+        <picture><source media="(min-width:1024px)" srcset="img/skrip-d.webp" width="1400" height="875"><img class="shot shot-r" data-zoom src="img/skrip.webp" alt="Layar Racik Skrip: pilihan teguran atau pembinaan, nada Tenang, Tegas, Sangat tegas, dan kolom fakta 3 kali telat kirim ke Toko Sumber Rejeki" width="728" height="1575" loading="lazy"></picture>
+      </div>
+    </div>
+    <div class="feat dimg flip">
+      <div class="feat-copy">
+        <p class="eyebrow eyebrow-madu">Sebelum masuk ruangan</p>
+        <h3>"Dia bilang begini, kamu jawab apa?" Sepuluh kartu, sambil nunggu kopi.</h3>
+        <p style="margin-top:12px;">Kartu acak dari 24 jawaban: banyak alasan, defensif, balik menyerang, playing victim, janji kosong, manipulator. Jawab dalam hati, lalu buka jawabannya.</p>
+        <p>Aktor hafal skrip supaya terdengar natural. Begitu dia bilang "yang lain juga gitu kok", jawabannya sudah ada di kepalamu.</p>
+      </div>
+      <div class="feat-img">
+        <picture><source media="(min-width:1024px)" srcset="img/latihan-d.webp" width="1400" height="875"><img class="shot shot-r" data-zoom src="img/latihan.webp" alt="Layar Latihan: kartu dia bilang Kerjaan saya banyak banget, lalu jawaban yang disarankan dan tombol Ulang lagi atau Sudah bisa" width="728" height="1575" loading="lazy"></picture>
+      </div>
+    </div>
+    <div class="feat dimg">
+      <div class="feat-copy">
+        <p class="eyebrow">Penutup percakapan</p>
+        <h3>"Saya usahakan, Pak." Kalimat itu tidak lagi jadi penutup.</h3>
+        <p style="margin-top:12px;">Isi apa yang berubah, ukurannya, tenggat, dan tanggal cek. Salin ringkasannya untuk dikirim lewat chat kerja.</p>
+        <p>Di tanggal cek, pengingatnya muncul di Hari Ini. Tepat atau meleset, kamu tahu dari catatan, bukan dari perasaan.</p>
+      </div>
+      <div class="feat-img">
+        <picture><source media="(min-width:1024px)" srcset="img/komitmen-d.webp" width="1400" height="875"><img class="shot shot-r" data-zoom src="img/komitmen.webp" alt="Layar Kunci Komitmen kasus Fikri: form apa yang berubah, ukuran, tenggat, tanggal cek, dan komitmen pengiriman Sumber Rejeki yang jatuh tempo" width="728" height="1575" loading="lazy"></picture>
+      </div>
+    </div>
+    <div class="feat-pair">
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Topiknya sensitif. App-nya juga paham.</h3>
+          <p>Nama karyawan, fakta, skrip, dan catatan hanya tersimpan di HP kamu. Tidak ada yang dikirim ke server. Tanpa akun dan password.</p>
+        </div>
+        <div class="card">
+          <h3>HP, tablet, atau laptop.</h3>
+          <p>Dibuka dari browser. Pindah perangkat pakai kode Pindah Progres. Hurufnya bisa dibesarkan di Pengaturan.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ALAT -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:30px;">
+      <h2>Dan alat untuk momen yang paling berat.</h2>
+      <p class="lead" style="margin-top:12px;">Semuanya bisa dipakai kapan saja, gak perlu nunggu hari programnya.<span class="m-only"> Geser untuk melihat yang lain.</span></p>
+    </div>
+    <div class="alat-tabs" role="tablist" aria-label="Pilih alat">
+      <button type="button" role="tab" id="tab-log" aria-controls="alat-log" aria-selected="true">Log Perilaku</button>
+      <button type="button" role="tab" id="tab-manip" aria-controls="alat-manip" aria-selected="false" tabindex="-1">Kalau dia main di belakang</button>
+      <button type="button" role="tab" id="tab-cc" aria-controls="alat-cc" aria-selected="false" tabindex="-1">Clean Cut Protocol</button>
+    </div>
+    <div class="alat-track" id="alatTrack">
+      <div class="alat-item on" id="alat-log" role="tabpanel" aria-labelledby="tab-log">
+        <picture><source media="(min-width:1024px)" srcset="img/log-d.webp" width="1400" height="875"><img class="shot" data-zoom src="img/log.webp" alt="Layar Log Perilaku kasus Fikri: tombol Catat kejadian dan Tulis notulen pertemuan, filter jenis, dan notulen 23 Oktober" width="728" height="1575" loading="lazy"></picture>
+        <div>
+          <h3>Log Perilaku</h3>
+          <p>Catat kejadian dan notulen pertemuan, lengkap dengan tanggal dan angkanya. Catatan ini yang melindungimu kalau dia memutarbalikkan fakta.</p>
+        </div>
+      </div>
+      <div class="alat-item" id="alat-manip" role="tabpanel" aria-labelledby="tab-manip">
+        <picture><source media="(min-width:1024px)" srcset="img/manipulator-d.webp" width="1400" height="875"><img class="shot" data-zoom src="img/manipulator.webp" alt="Layar Kalau dia main di belakang untuk kasus Wati: lima langkah, dan data silang yang sudah dicatat" width="728" height="1575" loading="lazy"></picture>
+        <div>
+          <h3>Kalau dia main di belakang</h3>
+          <p>Catat data silang: siapa bilang apa ke siapa, kapan. Lalu klarifikasi di ruang privat dengan skrip yang sudah terisi.</p>
+        </div>
+      </div>
+      <div class="alat-item" id="alat-cc" role="tabpanel" aria-labelledby="tab-cc">
+        <picture><source media="(min-width:1024px)" srcset="img/cleancut-d.webp" width="1400" height="875"><img class="shot" data-zoom src="img/cleancut.webp" alt="Layar Clean Cut Protocol: rambu bukan nasihat hukum, tab Peringatan, Evaluasi, Kerangka SP, dan 3 level peringatan" width="728" height="1575" loading="lazy"></picture>
+        <div>
+          <h3>Clean Cut Protocol</h3>
+          <p>3 level peringatan, checklist evaluasi akhir, kerangka isi SP, skrip pertemuan berpisah, dan stabilisasi tim 14 hari. Dengan rambu: ikuti aturan perusahaan dan konsultasi HR.</p>
+        </div>
+      </div>
+    </div>
+    <div class="alat-dots" id="alatDots" aria-hidden="true">
+      <button type="button" class="on" data-i="0" aria-label="Alat 1"></button>
+      <button type="button" data-i="1" aria-label="Alat 2"></button>
+      <button type="button" data-i="2" aria-label="Alat 3"></button>
+    </div>
+    <p class="also">Juga ada Bank Counter 24 jawaban, Protokol 48 Jam, Reset Standar Tim, Rekap kasus siap cetak, Kartu Saku 5 Langkah, Skrip Menahan Karyawan Terbaik, Rambu, dan Pindah Progres.</p>
+  </div>
+</section>
+
+<!-- SUPAYA JELAS -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:28px;">
+      <h2>Supaya jelas dari awal</h2>
+    </div>
+    <div class="grid grid-2">
+      <div class="card clear-card clear-yes">
+        <h3>Anti Toxic Team Building bisa</h3>
+        <p>membantu kamu memilah kurang skill dan masalah sikap, menyusun skrip teguran dari kejadian nyata, melatih jawaban saat dia ngeles, mengunci komitmen dan mencatat bukti, serta menyiapkan langkah berpisah yang rapi.</p>
+      </div>
+      <div class="card clear-card clear-no">
+        <h3>Anti Toxic Team Building bukan</h3>
+        <p>nasihat hukum: SP dan PHK tetap mengikuti aturan perusahaan, perjanjian kerja, dan konsultasi HR atau ahli hukum ketenagakerjaan. Bukan tes psikologi, bukan cara memaksa orang resign, dan tidak menjanjikan karyawan pasti berubah. Untuk pelecehan, kekerasan, atau masalah kesehatan mental berat, libatkan HR atau profesional.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- UNTUK SIAPA -->
+<section>
+  <div class="wrap">
+    <div class="grid grid-2">
+      <div class="card">
+        <h3 style="margin-bottom:16px;">Cocok kalau</h3>
+        <ul class="fitlist fit-yes">
+          <li>Kamu supervisor, kepala tim, atau manager yang memimpin 5 sampai 30 orang.</li>
+          <li>Kamu pemilik usaha yang mengurus tim sendiri tanpa HRD.</li>
+          <li>Ada satu orang yang bikin satu tim capek, dan kamu memilih diam karena gak enakan.</li>
+          <li>Kamu mau tegas tanpa jadi galak.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom:16px;">Bukan untuk kamu kalau</h3>
+        <ul class="fitlist fit-no">
+          <li>Kamu cari cara mempermalukan atau mengancam karyawan.</li>
+          <li>Kamu mau langsung memecat tanpa proses.</li>
+          <li>Kamu cari bacaan motivasi leadership, bukan alat yang dipakai.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PERBANDINGAN -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:28px;">
+      <h2>Kenapa app ini, bukan cara yang biasa dicoba.</h2>
+    </div>
+    <div class="tbl-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Diam dan sabar</th>
+            <th>Pelatihan supervisor</th>
+            <th>Artikel dan video gratis</th>
+            <th class="hl">Anti Toxic Team Building</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th>Kalimat untuk kasusmu</th><td>Tidak ada</td><td>Contoh umum di kelas</td><td>Contoh umum</td><td class="hl">Disusun dari kejadian yang kamu isi</td></tr>
+          <tr><th>Saat dia ngeles</th><td>Kamu mundur</td><td>Teori</td><td>Jarang dibahas</td><td class="hl">24 jawaban + latihan kartu</td></tr>
+          <tr><th>Catatan bukti</th><td>Tidak ada</td><td>Tidak ada</td><td>Tidak ada</td><td class="hl">Log, notulen, rekap siap cetak</td></tr>
+          <tr><th>Dipakai kapan</th><td>Gak pernah</td><td>Sekali, 1 sampai 2 hari</td><td>Saat sempat</td><td class="hl">Sebelum setiap obrolan sulit</td></tr>
+          <tr><th>Biaya</th><td>Orang terbaikmu pergi</td><td>Rp2 juta sampai Rp7 juta per orang</td><td>Gratis, tapi generik</td><td class="hl">Sekali bayar, tanpa langganan</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONI -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:28px;">
+      <h2>Cerita dari yang sudah pakai.</h2>
+      <p class="lead" style="margin-top:12px;"><span class="m-only">Geser untuk melihat cerita lainnya. </span>Nomor disensor untuk menjaga privasi.</p>
+    </div>
+    <div class="testi-grid">
+      <img src="img/testi1.webp" alt="Screenshot WhatsApp: owner katering mengisi diagnosis, ternyata karyawannya skill gap, setelah dibina pakai skrip pembinaan kotakan beres sebelum jam 9" width="374" height="782" loading="lazy">
+      <img src="img/testi2.webp" alt="Screenshot WhatsApp: supervisor gudang menegur bawahan senior pakai skrip, diam 3 detik, lalu bawahannya berjanji cek ulang sebelum muat" width="374" height="782" loading="lazy">
+      <img src="img/testi3.webp" alt="Screenshot WhatsApp: kepala toko latihan kartu tiap malam, lalu menjawab yang lain juga telat dengan kalimat dari kartu, dan karyawannya berjanji datang tepat waktu" width="374" height="782" loading="lazy">
+    </div>
+    <div class="testi-dots" id="testiDots" aria-hidden="true">
+      <button type="button" class="on" data-i="0" aria-label="Testimoni 1"></button>
+      <button type="button" data-i="1" aria-label="Testimoni 2"></button>
+      <button type="button" data-i="2" aria-label="Testimoni 3"></button>
+    </div>
+  </div>
+</section>
+
+<!-- NILAI -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:24px;">
+      <h2>Berapa yang sudah keluar selama ini?</h2>
+    </div>
+    <div class="story">
+      <p>Satu orang toxic jarang kelihatan di laporan keuangan. Tapi ongkosnya ada: lembur orang lain yang menutup kerjaannya, pelanggan yang komplain, dan yang paling mahal, orang terbaik yang akhirnya pamit.</p>
+      <p>Pelatihan supervisor di Indonesia biasanya Rp2 juta sampai Rp7 juta per orang untuk satu atau dua hari, lalu kamu kembali ke kantor dengan catatan teori.</p>
+      <p class="punch">Anti Toxic Team Building sekali bayar, harganya jauh di bawah satu hari pelatihan, dan kamu pakai sebelum setiap obrolan sulit. Angkanya ada di halaman berikutnya.</p>
+    </div>
+    <div class="price-card">
+      <h3 class="center">Yang kamu dapat begitu masuk</h3>
+      <ul class="incl">
+        <li>Diagnosis 2 langkah: skill gap, pembangkang, atau manipulator</li>
+        <li>Racik Skrip 3 nada + versi pembinaan</li>
+        <li>Bank Counter 24 jawaban + latihan kartu</li>
+        <li>Kunci Komitmen dengan pengingat tanggal cek</li>
+        <li>Log Perilaku + notulen pertemuan</li>
+        <li>Modul Kalau dia main di belakang</li>
+        <li>Clean Cut Protocol</li>
+        <li>Program 14 Hari + Protokol 48 Jam</li>
+        <li>Reset Standar Tim</li>
+        <li>Rekap kasus + 3 bonus siap cetak</li>
+      </ul>
+      <div class="once-box">
+        <b>Sekali bayar, tanpa langganan.</b>
+        Semua fitur langsung terbuka, tanpa paket basic dan premium.
+      </div>
+      <div class="cta-block center">
+        <a class="btn" href="checkout.html">Siapkan Skrip Pertama Malam Ini →</a>
+        <p class="btn-note">Panduan Akses berisi kode masuk dikirim ke email yang kamu pakai saat order.</p>
+      </div>
+    </div>
+    <div class="flow">
+      <h3>Dari bayar sampai skrip pertama, tiga langkah.</h3>
+      <ol>
+        <li><b>Selesaikan pembayaran</b>Bisa pakai QRIS, transfer bank, atau e-wallet.</li>
+        <li><b>Buka email, klik link biru</b>Klik link biru yang diawali drive.google.com untuk membuka Panduan Akses, bukan tombol “Unduh Produk”. Kalau belum ada di kotak masuk, cek folder Spam atau Promosi.</li>
+        <li><b>Masukkan kode, lalu mulai</b>Buka attb-kit.netlify.app, masukkan kode akses dari panduan, lalu buat kasus pertamamu.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="wrap">
+    <div class="narrow">
+      <h2 class="center" style="margin-bottom:26px;">Pertanyaan yang sering masuk</h2>
+      <div class="faq-key">
+        <h3>Aku sudah bayar. Kodenya di mana?</h3>
+        <ol>
+          <li>Buka email pembelianmu.</li>
+          <li>Klik <b>link biru yang diawali drive.google.com</b>.</li>
+          <li>PDF Panduan Akses terbuka. Kodenya ada di dalamnya.</li>
+        </ol>
+      </div>
+      <div class="faq-key">
+        <h3>Aku sudah klik &quot;Unduh Produk&quot;, tapi gak ada kodenya.</h3>
+        <p>Gak apa-apa, kamu cuma salah klik. Balik ke email yang sama, lalu:</p>
+        <ol>
+          <li>Cari <b>link biru yang diawali drive.google.com</b>. Letaknya di atas tombol Unduh Produk.</li>
+          <li>Klik link itu, bukan tombolnya.</li>
+          <li>Kodenya ada di PDF Panduan Akses yang terbuka.</li>
+        </ol>
+      </div>
+      <div class="faq">
+        <details><summary>Kodenya ditolak.</summary><div class="ans">Pastikan kamu membuka attb-kit.netlify.app, lalu ketik atau salin kode dari Panduan Akses apa adanya. Huruf besar kecil, spasi, dan strip yang ikut tersalin gak masalah. Masih ditolak? Balas email pembelianmu.</div></details>
+        <details><summary>Harganya berapa?</summary><div class="ans">Harganya tertera di halaman pembayaran setelah kamu klik tombol Siapkan Skrip. Sekali bayar, tanpa biaya bulanan, dan semua fitur langsung terbuka.</div></details>
+        <details><summary>Ini app yang harus di-install?</summary><div class="ans">Gak. Dibuka lewat browser di HP atau laptop. Supaya cepat dibuka, ikonnya bisa dipasang di layar utama HP seperti app biasa.</div></details>
+        <details><summary>Perlu bikin akun atau password?</summary><div class="ans">Gak. Cukup satu kode akses.</div></details>
+        <details><summary>Data karyawanku aman?</summary><div class="ans">Nama, fakta, skrip, dan catatan hanya tersimpan di perangkat kamu, bukan di server kami. Jangan tunjukkan layar kasus ke orang lain.</div></details>
+        <details><summary>Kalau ganti HP, datanya ikut?</summary><div class="ans">Bisa. Buka Pindah Progres di menu Lainnya dan buat kode cadangan. Di HP baru, masukkan kode akses yang sama, lalu tempel kode cadangan tadi.</div></details>
+        <details><summary>Berapa lama sehari?</summary><div class="ans">10 sampai 15 menit untuk tugas harian. Racik skrip sekitar 5 menit.</div></details>
+        <details><summary>Ini tes psikologi?</summary><div class="ans">Bukan. Diagnosis membantu memilah perilaku. Hasilnya arah tindakan, bukan cap untuk orangnya, dan bisa diulang kapan saja.</div></details>
+        <details><summary>Bisa untuk lebih dari satu karyawan?</summary><div class="ans">Bisa. Buat satu kasus per orang di menu Kasus.</div></details>
+        <details><summary>Kalau berhenti di tengah program?</summary><div class="ans">Gak apa-apa. Program lanjut dari hari terakhir yang belum selesai, bukan mulai dari awal.</div></details>
+        <details><summary>Setelah 14 hari selesai, terus gimana?</summary><div class="ans">Beranda berubah jadi Mode Leader: alat cepat yang dibuka sebelum setiap obrolan sulit, plus Protokol 48 Jam untuk kasus baru. Semua alat tetap bisa dipakai.</div></details>
+        <details><summary>Bisa dipakai untuk PHK?</summary><div class="ans">Ada Clean Cut Protocol, tapi app ini bukan nasihat hukum. SP dan PHK tetap mengikuti aturan perusahaan dan konsultasi HR atau ahli hukum ketenagakerjaan.</div></details>
+        <details><summary>Ada biaya bulanan?</summary><div class="ans">Gak ada. Sekali bayar.</div></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLOSING -->
+<section class="sec-deep">
+  <div class="wrap">
+    <div class="narrow center">
+      <h2>Malam ini cukup mulai dari satu orang, tiga fakta, dan satu skrip.</h2>
+      <p class="lead" style="margin-top:20px;">Kamu sudah coba sabar, sudah coba kode halus, sudah coba "puji dulu baru tegur". Satu hal yang belum: masuk ruangan dengan urutan bicara yang jelas.</p>
+      <p class="closing-line">Satu orang toxic bisa merusak satu tim. Satu leader yang berani bisa menyelamatkannya.</p>
+      <div class="cta-block">
+        <a class="btn" href="checkout.html">Siapkan Skrip Pertama Malam Ini →</a>
+        <p class="btn-note">Dibuka dari browser HP atau laptop. Tanpa install, tanpa akun.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <a class="logo" href="index.html">Anti Toxic <em>Team Building</em></a>
+    <small>© 2026 Anti Toxic Team Building. Semua hak dilindungi.</small>
+  </div>
+</footer>
+
+<div class="sticky-cta" id="stickyCta">
+  <div class="sp">
+    <b>Skrip tegur tanpa drama</b>
+    <small>Buka dari HP, tanpa install</small>
+  </div>
+  <a class="btn" href="checkout.html">Mulai</a>
+</div>
+
+<div class="lb" id="lightbox" role="dialog" aria-modal="true" aria-label="Tampilan app diperbesar">
+  <button type="button" class="lb-close" id="lbClose" aria-label="Tutup gambar">
+    <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5.5 5.5l9 9M14.5 5.5l-9 9" stroke="#1B2430" stroke-width="1.8" stroke-linecap="round"/></svg>
+  </button>
+  <div class="lb-inner"><img id="lbImg" alt=""></div>
+</div>
+
+<script>
+(function(){
+  var bar=document.getElementById('stickyCta');
+  var hero=document.querySelector('.hero');
+  if(!bar||!hero)return;
+  document.body.classList.add('has-sticky');
+  function check(){bar.classList.toggle('on',hero.getBoundingClientRect().bottom<0);}
+  check();
+  window.addEventListener('scroll',check,{passive:true});
+  window.addEventListener('resize',check);
+})();
+
+/* geser + titik untuk testimoni dan alat (HP) */
+function scroller(trackSel,itemSel,dotsId){
+  var track=document.querySelector(trackSel),dots=document.getElementById(dotsId);
+  if(!track||!dots)return;
+  var slides=track.querySelectorAll(itemSel),btns=dots.querySelectorAll('button');
+  function active(){
+    var mid=track.scrollLeft+track.clientWidth/2,best=0,min=Infinity;
+    for(var i=0;i<slides.length;i++){
+      var c=slides[i].offsetLeft+slides[i].offsetWidth/2,d=Math.abs(c-mid);
+      if(d<min){min=d;best=i;}
+    }
+    for(var j=0;j<btns.length;j++)btns[j].classList.toggle('on',j===best);
+  }
+  var t;
+  track.addEventListener('scroll',function(){clearTimeout(t);t=setTimeout(active,60);},{passive:true});
+  for(var k=0;k<btns.length;k++){
+    btns[k].addEventListener('click',function(){
+      var el=slides[Number(this.getAttribute('data-i'))];
+      if(!el)return;
+      track.scrollTo({left:el.offsetLeft-(track.clientWidth-el.offsetWidth)/2,behavior:'smooth'});
+    });
+  }
+  active();
+}
+scroller('.testi-grid','img','testiDots');
+scroller('#alatTrack','.alat-item','alatDots');
+
+/* tab alat (desktop) */
+(function(){
+  var tabs=document.querySelectorAll('.alat-tabs [role="tab"]');
+  function pick(tab){
+    for(var i=0;i<tabs.length;i++){
+      var on=tabs[i]===tab;
+      tabs[i].setAttribute('aria-selected',on?'true':'false');
+      tabs[i].setAttribute('tabindex',on?'0':'-1');
+      document.getElementById(tabs[i].getAttribute('aria-controls')).classList.toggle('on',on);
+    }
+  }
+  for(var i=0;i<tabs.length;i++){
+    tabs[i].addEventListener('click',function(){pick(this);});
+    tabs[i].addEventListener('keydown',function(e){
+      var idx=Array.prototype.indexOf.call(tabs,this),n=null;
+      if(e.key==='ArrowRight')n=tabs[(idx+1)%tabs.length];
+      if(e.key==='ArrowLeft')n=tabs[(idx-1+tabs.length)%tabs.length];
+      if(n){e.preventDefault();pick(n);n.focus();}
+    });
+  }
+})();
+
+/* lightbox: membuka versi gambar yang sedang tampil (HP atau desktop) */
+(function(){
+  var lb=document.getElementById('lightbox'),img=document.getElementById('lbImg'),close=document.getElementById('lbClose');
+  var last=null;
+  function open(src,alt){
+    img.src=src;img.alt=alt||'';
+    lb.classList.add('on');document.body.style.overflow='hidden';close.focus();
+  }
+  function shut(){lb.classList.remove('on');img.removeAttribute('src');document.body.style.overflow='';if(last)last.focus();}
+  var zs=document.querySelectorAll('[data-zoom]');
+  for(var i=0;i<zs.length;i++){
+    zs[i].setAttribute('tabindex','0');
+    zs[i].setAttribute('role','button');
+    zs[i].addEventListener('click',function(){last=this;open(this.currentSrc||this.src,this.alt);});
+    zs[i].addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();this.click();}});
+  }
+  close.addEventListener('click',shut);
+  lb.addEventListener('click',function(e){if(e.target===lb)shut();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&lb.classList.contains('on'))shut();});
+})();
+</script>
+</body>
+</html>
