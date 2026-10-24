@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ternak Emas | Bukan Emasmu yang Kurang Banyak, Emasmu Cuma Belum Disuruh Kerja</title>
+<meta name="description" content="Mini app di HP untuk memutar sebagian kecil emas dengan aman: Sistem 2 Kantong, Kalkulator Zona Harga, cek fisik 6 langkah di meja COD, dan Buku Kas. Dipandu 30 hari, tanpa install.">
+<meta property="og:title" content="Ternak Emas | Bukan Emasmu yang Kurang Banyak, Emasmu Cuma Belum Disuruh Kerja">
+<meta property="og:description" content="Hitung zona harga, cek 6 langkah di meja COD, catat untung tiap putaran. Dipandu 30 hari, tanpa install, tanpa akun.">
+<meta name="theme-color" content="#1F6B3E">
+<link rel="icon" type="image/png" sizes="64x64" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pri:#14532D;
+  --pri-mid:#1F6B3E;
+  --pri-soft:#E7F1EA;
+  --pri-deep:#0D3A1F;
+  --madu:#D4A017;
+  --madu-soft:#FBF0D2;
+  --madu-text:#8A6400;
+  --bara:#C2362B;
+  --bara-soft:#FBE7E3;
+  --bg:#FBF7EE;
+  --pasir:#F1EDE3;
+  --card:#FFFFFF;
+  --line:#E6E0D2;
+  --line-soft:#EDE7DA;
+  --ink:#1F2421;
+  --muted:#5D6A63;
+  --muted-light:#7D877F;
+  --sans:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --radius:14px;
+  --radius-lg:20px;
+  --sinyal:#D4A017;
+  --sinyal-deep:#A87A00;
+  --maxw:1120px;
+  --maxw-text:680px;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.65;overflow-x:hidden;}
+img{max-width:100%;height:auto;display:block;}
+a{color:inherit;}
+h1,h2,h3,h4{margin:0;line-height:1.2;letter-spacing:-0.02em;color:var(--pri);font-family:var(--sans);}
+h1{font-size:clamp(31px,5.8vw,50px);font-weight:800;letter-spacing:-0.03em;line-height:1.1;}
+h2{font-size:clamp(25px,4.2vw,36px);font-weight:800;}
+h3{font-size:clamp(20px,2.6vw,24px);font-weight:700;}
+h4{font-size:17px;font-weight:700;}
+p{margin:0 0 1rem;}
+p:last-child{margin-bottom:0;}
+strong{font-weight:700;color:var(--pri);}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px;}
+.narrow{max-width:var(--maxw-text);margin-left:auto;margin-right:auto;}
+section{padding:56px 0;}
+@media(min-width:768px){section{padding:76px 0;}}
+.sec-alt{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.sec-deep{background:var(--pri-deep);color:#fff;}
+.sec-deep h2,.sec-deep h3{color:#fff;}
+.eyebrow{font-size:13.5px;font-weight:700;color:var(--pri-mid);margin:0 0 10px;}
+.eyebrow-bara{color:var(--bara);}
+.eyebrow-madu{color:var(--madu-text);}
+.lead{font-size:clamp(17px,2vw,19px);color:var(--muted);}
+.sec-deep .lead{color:#D3E6D9;}
+.center{text-align:center;}
+
+/* header */
+.site-head{background:var(--card);border-bottom:1px solid var(--line);padding:14px 0;position:relative;z-index:5;}
+.logo{display:inline-block;font-family:var(--sans);font-size:20px;font-weight:800;letter-spacing:-0.02em;color:var(--ink);text-decoration:none;line-height:1.2;}
+.logo em{font-style:normal;color:var(--pri-mid);}
+
+/* buttons */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  background:var(--sinyal);color:var(--ink);text-decoration:none;
+  font-weight:800;font-size:17px;letter-spacing:-0.01em;
+  padding:17px 28px;border-radius:12px;border:none;cursor:pointer;
+  box-shadow:0 3px 0 var(--sinyal-deep);
+  transition:transform .12s ease,box-shadow .12s ease,background .12s ease;
+  text-align:center;width:100%;
+}
+@media(min-width:560px){.btn{width:auto;font-size:18px;padding:18px 34px;}}
+.btn:hover{background:#C29213;transform:translateY(-1px);box-shadow:0 4px 0 var(--sinyal-deep);}
+.btn:active{transform:translateY(2px);box-shadow:0 1px 0 var(--sinyal-deep);}
+.btn:focus-visible{outline:3px solid var(--pri-mid);outline-offset:3px;}
+.sec-deep .btn{background:var(--sinyal);color:var(--ink);box-shadow:0 3px 0 #062514;}
+.sec-deep .btn:hover{background:#C29213;}
+.btn-note{font-size:14.5px;color:var(--muted);margin-top:12px;}
+.sec-deep .btn-note{color:#A9CBB4;}
+.cta-block{margin-top:26px;}
+
+/* hero */
+.hero{background:var(--card);padding:28px 0 44px;border-bottom:1px solid var(--line);}
+.hero-grid{display:block;}
+.hero-img{margin:22px -20px 24px;}
+@media(min-width:900px){
+  .hero{padding:64px 0 72px;}
+  .hero-grid{display:grid;grid-template-columns:1fr 460px;grid-template-areas:"hd img" "rest img";column-gap:56px;align-items:center;}
+  .hero-hd{grid-area:hd;align-self:end;}
+  .hero-rest{grid-area:rest;align-self:start;padding-top:18px;}
+  .hero-img{grid-area:img;margin:0;align-self:center;}
+  .hero-img img{border-radius:var(--radius-lg);}
+}
+.hero-bullets{list-style:none;padding:0;margin:22px 0 0;}
+.hero-bullets li{position:relative;padding-left:30px;margin-bottom:12px;font-size:16.5px;color:var(--ink);}
+.hero-bullets li::before{content:"";position:absolute;left:0;top:8px;width:16px;height:16px;border-radius:50%;background:var(--pri-soft);border:2px solid var(--pri-mid);}
+.hero-bullets b{color:var(--pri);}
+.hero-facts{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:20px;font-size:14.5px;color:var(--muted);font-weight:600;}
+.hero-facts span{white-space:nowrap;}
+
+/* cards */
+.grid{display:grid;gap:18px;}
+@media(min-width:760px){.grid-3{grid-template-columns:repeat(3,1fr);}}
+@media(min-width:640px){.grid-2{grid-template-columns:repeat(2,1fr);}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;}
+.sec-alt .card{background:var(--bg);}
+.card-quote{font-size:20px;font-weight:800;color:var(--bara);margin:0 0 10px;line-height:1.3;letter-spacing:-0.01em;}
+.card p{font-size:16px;color:var(--muted);}
+.card h3{margin-bottom:10px;}
+
+.pilar{border-left:4px solid var(--pri-mid);padding:4px 0 4px 18px;margin-bottom:20px;}
+.pilar.p-anak{border-color:#7DB283;}
+.pilar.p-ortu{border-color:var(--madu);}
+.pilar.p-darurat{border-color:var(--bara);}
+.pilar h4{margin-bottom:4px;color:var(--pri);}
+.pilar p{font-size:16px;color:var(--muted);margin:0;}
+.pilar p b{color:var(--pri);}
+.golden{margin-top:28px;font-size:25px;font-weight:800;color:var(--pri);margin-bottom:6px;line-height:1.3;letter-spacing:-0.02em;}
+
+/* steps */
+.step{display:grid;gap:20px;padding:28px 0;border-top:1px solid var(--line);}
+.narrow + .step{border-top:none;}
+@media(min-width:1024px){
+  .step.dimg{grid-template-columns:1fr 1.45fr;gap:48px;align-items:center;}
+  .step-img{order:2;}
+}
+.step-num{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:var(--pri-mid);color:#fff;font-weight:800;font-size:16px;margin-bottom:12px;}
+.step-copy p{color:var(--muted);margin-top:10px;}
+.step-wide{display:block;}
+.step-wide .step-copy{max-width:var(--maxw-text);}
+
+/* screenshot frames */
+.shot{border:1px solid var(--line);border-radius:14px;background:var(--card);box-shadow:0 1px 3px rgba(20,83,45,.08);}
+.shot-r{max-width:300px;width:100%;margin-left:auto;margin-right:auto;}
+@media(min-width:1024px){.shot-r{max-width:100%;}}
+[data-zoom]{cursor:zoom-in;}
+.m-only{display:inline;}
+@media(min-width:700px){.m-only{display:none;}}
+figure{margin:0;}
+figcaption{font-size:13.5px;color:var(--muted);margin-top:8px;text-align:center;}
+
+/* feature rows */
+.feat{display:grid;gap:24px;padding:40px 0;border-top:1px solid var(--line);}
+@media(min-width:1024px){
+  .feat.dimg{grid-template-columns:1fr 1.45fr;gap:48px;align-items:center;}
+  .feat.dimg.flip{grid-template-columns:1.45fr 1fr;}
+  .feat-img{order:2;}
+  .feat.flip .feat-img{order:1;}
+  .feat.flip .feat-copy{order:2;}
+}
+.feat-copy h3{margin-bottom:12px;}
+.feat-copy p{color:var(--muted);font-size:16.5px;}
+.feat-pair{padding-top:40px;border-top:1px solid var(--line);}
+
+/* alat */
+.alat-tabs{display:none;}
+.alat-track{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:4px 20px 6px;margin:0 -20px;}
+.alat-track::-webkit-scrollbar{display:none;}
+.alat-item{flex:0 0 80%;scroll-snap-align:center;}
+.alat-item h3{font-size:19px;margin:16px 0 6px;}
+.alat-item p{font-size:15.5px;color:var(--muted);margin:0;}
+.alat-dots{display:flex;justify-content:center;gap:8px;margin-top:18px;}
+.alat-dots button,.testi-dots button{width:8px;height:8px;padding:0;border:none;border-radius:50%;background:var(--line);cursor:pointer;transition:background .2s ease,width .2s ease;}
+.alat-dots button.on,.testi-dots button.on{background:var(--pri-mid);width:22px;border-radius:5px;}
+.alat-dots button:focus-visible,.testi-dots button:focus-visible{outline:2px solid var(--pri-mid);outline-offset:3px;}
+@media(min-width:1024px){
+  .alat-tabs{display:flex;justify-content:center;gap:8px;margin-bottom:26px;flex-wrap:wrap;}
+  .alat-tabs button{font:inherit;font-size:15.5px;font-weight:700;color:var(--pri);background:var(--card);border:1.5px solid var(--line);border-radius:999px;padding:10px 20px;cursor:pointer;}
+  .alat-tabs button[aria-selected="true"]{background:var(--pri-mid);border-color:var(--pri-mid);color:#fff;}
+  .alat-tabs button:focus-visible{outline:3px solid var(--madu);outline-offset:2px;}
+  .alat-track{display:block;overflow:visible;padding:0;margin:0;}
+  .alat-item{display:none;}
+  .alat-item.on{display:grid;grid-template-columns:1.6fr 1fr;gap:40px;align-items:center;}
+  .alat-item h3{font-size:24px;margin:0 0 10px;}
+  .alat-item p{font-size:16.5px;}
+  .alat-dots{display:none;}
+}
+.also{max-width:var(--maxw-text);margin:34px auto 0;text-align:center;font-size:16px;color:var(--muted);}
+
+/* jelas */
+.clear-card p{color:var(--muted);font-size:16.5px;}
+.clear-yes{border-top:4px solid var(--pri-mid);}
+.clear-no{border-top:4px solid var(--madu);}
+
+.fitlist{list-style:none;padding:0;margin:0;}
+.fitlist li{position:relative;padding-left:30px;margin-bottom:13px;font-size:16.5px;}
+.fitlist li::before{position:absolute;left:0;top:0;font-weight:800;font-size:17px;}
+.fit-yes li::before{content:"✓";color:var(--pri-mid);}
+.fit-no li::before{content:"✕";color:var(--bara);}
+
+/* table */
+.tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%;border:1px solid var(--line);border-radius:var(--radius);}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:15.5px;background:var(--card);}
+th,td{padding:14px 16px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;}
+tbody tr:last-child th,tbody tr:last-child td{border-bottom:none;}
+thead th{font-size:13.5px;font-weight:700;color:var(--muted);border-bottom:2px solid var(--line);}
+thead th.hl{color:var(--pri);}
+tbody td.hl{font-weight:700;color:var(--pri);background:var(--pri-soft);}
+tbody th{font-weight:600;color:var(--ink);width:19%;}
+
+/* testimoni */
+.testi-grid{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:4px 20px 6px;margin:0 -20px;}
+.testi-grid::-webkit-scrollbar{display:none;}
+.testi-grid img{flex:0 0 78%;scroll-snap-align:center;width:100%;height:auto;border:1px solid var(--line);border-radius:16px;background:var(--card);box-shadow:0 1px 3px rgba(20,83,45,.08);}
+.testi-dots{display:flex;justify-content:center;gap:8px;margin-top:16px;}
+@media(min-width:700px){
+  .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;overflow:visible;padding:0;margin:0;}
+  .testi-grid img{flex:none;}
+  .testi-dots{display:none;}
+}
+
+/* nilai (naratif) */
+.story{max-width:var(--maxw-text);margin:0 auto 34px;}
+.story p{font-size:clamp(17px,2vw,18.5px);color:var(--muted);}
+.story p.punch{font-size:clamp(19px,2.4vw,22px);font-weight:700;color:var(--pri);line-height:1.45;margin-top:22px;}
+.price-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-lg);padding:26px 22px;max-width:620px;margin:0 auto;}
+.sec-alt .price-card{background:var(--bg);}
+@media(min-width:640px){.price-card{padding:36px;}}
+.incl{list-style:none;padding:0;margin:18px 0 0;}
+.incl li{position:relative;padding:10px 0 10px 30px;border-bottom:1px solid var(--line-soft);font-size:16px;}
+.incl li:last-child{border-bottom:none;}
+.incl li::before{content:"✓";position:absolute;left:0;top:10px;font-weight:800;color:var(--pri-mid);}
+.once-box{text-align:center;background:var(--madu-soft);border-radius:var(--radius);padding:18px 20px;margin:24px 0 0;font-size:16.5px;color:var(--ink);}
+.once-box b{display:block;font-size:19px;color:var(--pri);margin-bottom:2px;}
+
+.flow{max-width:620px;margin:40px auto 0;}
+.flow h3{text-align:center;margin-bottom:18px;font-size:clamp(19px,2.4vw,22px);}
+.flow ol{list-style:none;padding:0;margin:0;counter-reset:f;}
+.flow li{counter-increment:f;position:relative;padding:0 0 18px 48px;font-size:16px;color:var(--muted);}
+.flow li:last-child{padding-bottom:0;}
+.flow li::before{content:counter(f);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;background:var(--pri-soft);color:var(--pri);font-weight:800;display:flex;align-items:center;justify-content:center;font-size:15px;}
+.flow li b{display:block;color:var(--pri);font-size:16.5px;}
+
+/* faq */
+.faq-key{background:var(--card);border:3px solid var(--madu);border-radius:var(--radius);padding:22px;margin-bottom:16px;}
+.faq-key h3{font-size:clamp(20px,3.2vw,23px);margin-bottom:12px;}
+.faq-key p{font-size:17.5px;color:var(--muted);margin:0 0 10px;}
+.faq-key ol{margin:0;padding:0 0 0 24px;font-size:clamp(17.5px,2.6vw,19px);line-height:1.5;}
+.faq-key li{margin-bottom:10px;padding-left:4px;}
+.faq-key li:last-child{margin-bottom:0;}
+.faq-key li::marker{font-weight:800;color:var(--madu-text);}
+.faq-key b{color:var(--pri);}
+.faq{border-top:1px solid var(--line);margin-top:30px;}
+.faq details{border-bottom:1px solid var(--line);}
+.faq summary{cursor:pointer;padding:18px 34px 18px 0;position:relative;font-weight:700;font-size:16.5px;color:var(--pri);list-style:none;}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::after{content:"";position:absolute;right:6px;top:26px;width:9px;height:9px;border-right:2.5px solid var(--pri-mid);border-bottom:2.5px solid var(--pri-mid);transform:rotate(45deg);transition:transform .18s ease;}
+.faq details[open] summary::after{transform:rotate(-135deg);top:28px;}
+.faq summary:focus-visible{outline:2px solid var(--pri-mid);outline-offset:2px;}
+.faq .ans{padding:0 0 20px;color:var(--muted);font-size:16.5px;}
+
+.closing-line{font-size:25px;font-weight:800;color:#fff;margin-top:24px;line-height:1.3;letter-spacing:-0.02em;}
+
+/* sticky bar */
+.sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--card);border-top:1px solid var(--line);padding:10px 16px;box-shadow:0 -3px 14px rgba(20,83,45,.12);display:flex;align-items:center;gap:12px;transform:translateY(110%);transition:transform .25s ease;}
+.sticky-cta.on{transform:translateY(0);}
+.sticky-cta .sp{flex:1;min-width:0;}
+.sticky-cta .sp b{display:block;font-size:16.5px;color:var(--pri);line-height:1.2;}
+.sticky-cta .sp small{font-size:12.5px;color:var(--muted);}
+.sticky-cta .btn{width:auto;padding:14px 22px;font-size:15.5px;flex-shrink:0;}
+@media(min-width:900px){.sticky-cta{display:none;}}
+body.has-sticky{padding-bottom:82px;}
+@media(min-width:900px){body.has-sticky{padding-bottom:0;}}
+
+/* footer */
+.site-foot{background:var(--card);border-top:1px solid var(--line);padding:30px 0;text-align:center;}
+.site-foot .logo{display:block;margin-bottom:6px;}
+.site-foot small{font-size:13.5px;color:var(--muted-light);}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(8,36,20,.92);display:none;align-items:center;justify-content:center;padding:56px 12px 20px;}
+.lb.on{display:flex;}
+.lb-inner{max-width:1400px;width:100%;max-height:100%;overflow:auto;-webkit-overflow-scrolling:touch;border-radius:10px;}
+.lb img{width:auto;max-width:100%;max-height:86vh;margin:0 auto;border-radius:10px;}
+.lb-close{position:absolute;top:12px;right:12px;width:40px;height:40px;border-radius:50%;background:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;}
+.lb-close:focus-visible{outline:3px solid var(--madu);outline-offset:2px;}
+.lb-close svg{width:18px;height:18px;}
+
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;}}
+.pilar.pl-tenang{border-color:#14532D;}
+.pilar.pl-kerja{border-color:#D4A017;}
+.pilar.pl-merah{border-color:#C2362B;}
+.pilar.pl-cod{border-color:#1F8A4C;}
+.eyebrow-merah{color:#C2362B;}
+.eyebrow-emas{color:#A87A00;}
+.eyebrow-hijau{color:#1F8A4C;}
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Ternak Emas, halaman utama">Ternak <em>Emas</em></a>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-hd">
+        <h1>Bukan emasmu yang kurang banyak. Emasmu cuma belum disuruh kerja.</h1>
+      </div>
+      <div class="hero-img">
+        <img src="img/hero-mockup.webp" alt="Ternak Emas: mau jual beli emas? Jangan asal COD. Hitung zona harga, cek 6 langkah, dan catat untung tiap putaran" width="1092" height="1440" fetchpriority="high">
+      </div>
+      <div class="hero-rest">
+        <p class="lead">Ternak Emas adalah mini app di HP yang membantu kamu memutar sebagian kecil emas dengan aman: hitung zona harga sebelum menawar, cek fisik 6 langkah di meja COD, lalu catat untung tiap putaran. Dipandu 30 hari, mulai dari bagi 2 kantong.</p>
+        <ul class="hero-bullets">
+          <li><b>Takut emas simpanan habis kalau salah langkah?</b> Emasmu dibagi dulu jadi Kantong Tenang dan Kantong Kerja. Yang diputar cuma sebagian kecil.</li>
+          <li><b>Gak tahu harga segini wajar atau jebakan?</b> Ketik harga butik, buyback, dan tawaran penjual. App langsung bilang masuk zona hijau, terlalu mahal, atau terlalu murah.</li>
+          <li><b>Takut ketipu pas COD?</b> Meja COD menuntun 6 langkah cek di depan penjual. Satu gagal, app bilang berdiri dan pergi.</li>
+        </ul>
+        <div class="cta-block">
+          <a class="btn" href="checkout.html">Mulai Bagi 2 Kantong →</a>
+          <p class="btn-note">Dibuka dari browser HP atau laptop. Tanpa install, tanpa akun.</p>
+        </div>
+        <div class="hero-facts">
+          <span>2 kantong</span>
+          <span>6 langkah cek COD</span>
+          <span>30 hari dipandu</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ADEGAN -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:34px;">
+      <h2>Baca tiga ini. Kalau ada satu yang kejadian minggu ini, kamu di tempat yang benar.</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <p class="card-quote">“Jual Antam 2 gram, butuh dana cepat, COD.”</p>
+        <p>Postingan di grup FB jam 8 malam. Harganya menggoda. Kamu buka tutup chat tiga kali, lalu tutup HP. Bukan karena gak mau, tapi karena gak tahu harga segitu wajar atau jebakan.</p>
+      </div>
+      <div class="card">
+        <p class="card-quote">“Kak, DP dulu 500 ribu ya, barangnya dibawa suami saya.”</p>
+        <p>Kamu hampir transfer. Untung sinyal lagi jelek. Besoknya ada yang komen di postingan itu: sudah transfer, barangnya gak pernah datang.</p>
+      </div>
+      <div class="card">
+        <p class="card-quote">“Emas 5 gram di laci lemari.”</p>
+        <p>Sudah tiga tahun gak disentuh. Kamu tahu orang lain bisa dapat tambahan dari jual beli emas kecil-kecilan, tapi setiap mau mulai, yang kebayang cuma satu: kalau salah, tabunganmu yang hilang.</p>
+      </div>
+    </div>
+    <p class="narrow lead center" style="margin-top:30px;">Tiga adegan ini kelihatan beda. Akarnya sama, dan bukan karena kamu penakut. Kamu cuma belum punya hitungan dan urutan cek yang jelas sebelum uang pindah tangan.</p>
+  </div>
+</section>
+
+<!-- MEKANISME -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow">
+      <h2>Yang bikin aman bukan keberanian. Yang bikin aman itu urutan.</h2>
+      <p style="margin-top:18px;">Orang yang lancar jual beli emas kecil-kecilan bukan orang yang lebih nekat. Mereka punya kebiasaan yang selalu diulang, setiap kali ada penawaran.</p>
+      <p>Ternak Emas memakai <b>Sistem 2 Kantong + SOP COD 6 Langkah</b>:</p>
+
+      <div style="margin-top:26px;">
+        <div class="pilar pl-tenang"><h4>Kantong Tenang</h4><p>Emas simpanan dipisah dan tidak ikut diputar. Untuk haji, pendidikan anak, atau dana darurat. Aman di sini.</p></div>
+        <div class="pilar pl-kerja"><h4>Kantong Kerja</h4><p>Hanya sebagian kecil. Pemula disarankan 20% atau kurang, maksimal 30%. Kalau ada yang salah, yang kena cuma kantong ini.</p></div>
+        <div class="pilar pl-merah"><h4>Zona merah</h4><p>Harga di bawah buyback resmi bukan rezeki, tapi alarm. Orang yang emasnya asli bisa jual ke butik lebih tinggi dari itu.</p></div>
+        <div class="pilar pl-cod"><h4>6 langkah di meja COD</h4><p>Lihat, Sentuh, Timbang, Magnet, UV, Logika Harga. Satu gagal, transaksi berhenti.</p></div>
+      </div>
+
+      <p style="margin-top:26px;">Ternak Emas memasang kebiasaan itu ke dalam app. Kamu gak perlu menghafal. Tinggal isi angka dan ikuti layar.</p>
+
+      <p class="golden">Targetnya bukan untung besar di transaksi pertama. Targetnya satu putaran yang lewat semua langkah, tercatat rapi, dan bisa diulang.</p>
+      <p style="color:var(--muted);">Aturan yang dijaga app: gak ada uang yang pindah sebelum harga masuk zona hijau dan 6 langkah cek lolos semua.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CARA KERJA -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:10px;">
+      <h2>Gak perlu jago jual beli emas dulu. App-nya yang nuntun.</h2>
+    </div>
+
+    <div class="step step-wide">
+      <div class="step-copy">
+        <div class="step-num">1</div>
+        <h3>Masukkan kode akses</h3>
+        <p>Kodenya ada di Panduan Akses di emailmu. Cukup sekali di tiap HP, setelah itu tersimpan.</p>
+      </div>
+    </div>
+
+    <div class="step dimg">
+      <div class="step-copy">
+        <div class="step-num">2</div>
+        <h3>Bagi 2 kantong, 4 langkah</h3>
+        <p>Isi emasmu per keping, jawab soal dana darurat dan tujuan simpanan, lalu pilih berapa persen yang mau diputar. App menandai keping mana yang layak putar dan mana yang sebaiknya disimpan saja, misalnya emas warisan atau yang sertifikatnya tidak lengkap.</p>
+      </div>
+      <div class="step-img">
+        <picture><source media="(min-width:1024px)" srcset="img/hasil-kantong-d.webp" width="1400" height="875"><img class="shot shot-r" data-zoom src="img/hasil-kantong.webp" alt="Layar Kantongmu sudah dibagi: Kantong Tenang 5 gram untuk pendidikan anak dan Kantong Kerja 2 gram, dengan label layak putar per keping" width="728" height="1575" loading="lazy"></picture>
+      </div>
+    </div>
+
+    <div class="step step-wide">
+      <div class="step-copy">
+        <div class="step-num">3</div>
+        <h3>Ikuti Peta 30 Hari</h3>
+        <p>Minggu pertama siapkan kantong dan alat. Minggu kedua latihan membaca harga tanpa membeli. Baru minggu ketiga transaksi pertama, lalu minggu keempat jual, catat, ulang.</p>
+      </div>
+    </div>
+
+    <div class="cta-block narrow center" style="margin-top:34px;">
+      <a class="btn" href="checkout.html">Mulai Bagi 2 Kantong →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FITUR -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center">
+      <h2>Tiga layar yang kamu buka setiap ada penawaran.</h2>
+    </div>
+
+    <div class="feat dimg" style="border-top:none;">
+      <div class="feat-copy">
+        <p class="eyebrow eyebrow-merah">Zona Harga</p>
+        <h3>Jam 8 malam ada yang jual Antam “murah”. Kamu cukup ketik angkanya.</h3>
+        <p style="margin-top:12px;">Harga butik, buyback, berat, dan harga yang diminta. Tekan Hitung. Kalau di bawah buyback resmi, layar bilang “Terlalu murah. Curigai dulu.” lengkap dengan alasannya.</p>
+        <p>Kalau masuk zona hijau, kamu langsung tahu batas tawar maksimal dan harga jual wajar nantinya. Kalau kemahalan, ada kalimat tawar yang tinggal disalin.</p>
+      </div>
+      <div class="feat-img">
+        <picture><source media="(min-width:1024px)" srcset="img/zona-murah-d.webp" width="1400" height="875"><img class="shot shot-r" data-zoom src="img/zona-murah.webp" alt="Layar Kalkulator Zona Harga dengan hasil Terlalu murah, curigai dulu: harga di bawah buyback resmi, jangan transfer apa pun" width="728" height="1575" loading="lazy"></picture>
+      </div>
+    </div>
+
+    <div class="feat dimg flip">
+      <div class="feat-copy">
+        <p class="eyebrow eyebrow-emas">Meja COD</p>
+        <h3>Di depan penjual, HP-mu yang pegang urutannya.</h3>
+        <p style="margin-top:12px;">Satu langkah satu layar: Lihat, Sentuh, Timbang, Magnet, UV, Logika Harga. Berat di timbangan beda dengan sertifikat? App bilang “Lebih ringan dari sertifikat. Emas asli tidak menyusut.”</p>
+        <p>Satu langkah gagal, layar berubah jadi “Berdiri dan pergi”, lengkap dengan kalimat sopan untuk mundur. Kalau semua lolos, ada protokol uang sebelum kamu membayar.</p>
+      </div>
+      <div class="feat-img">
+        <picture><source media="(min-width:1024px)" srcset="img/meja-cod-d.webp" width="1400" height="875"><img class="shot shot-r" data-zoom src="img/meja-cod.webp" alt="Layar Berdiri dan pergi di Meja COD: satu langkah cek tidak lolos, dengan kalimat sopan untuk membatalkan transaksi" width="728" height="1575" loading="lazy"></picture>
+      </div>
+    </div>
+
+    <div class="feat dimg">
+      <div class="feat-copy">
+        <p class="eyebrow eyebrow-hijau">Buku Kas</p>
+        <h3>Untungnya kelihatan dari angka, bukan dari perasaan.</h3>
+        <p style="margin-top:12px;">Setiap beli dan jual dicatat, lalu app mencocokkannya jadi satu putaran. Kamu lihat untung bersih setelah ongkos jalan, stok Kantong Kerja, dan berapa yang disarankan jadi emas simpanan.</p>
+        <p>Grafik Kantong Tenang naik pelan-pelan setiap kamu menyisihkan untung. Sekali seminggu ada evaluasi 10 menit.</p>
+      </div>
+      <div class="feat-img">
+        <picture><source media="(min-width:1024px)" srcset="img/buku-kas-d.webp" width="1400" height="875"><img class="shot shot-r" data-zoom src="img/buku-kas.webp" alt="Layar Buku Kas Emas Kerja: 1 putaran bulan ini dengan untung bersih Rp45.000, stok Kantong Kerja, dan saran pembagian untung" width="728" height="1575" loading="lazy"></picture>
+      </div>
+    </div>
+
+    <div class="feat-pair">
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Urusan emas itu urusan pribadi. App-nya juga.</h3>
+          <p>Tanpa akun dan password. Semua catatan tersimpan di HP-mu sendiri. Tidak ada kolom nomor rekening, nomor sertifikat, atau data penjual. Ganti HP? Pindahkan progres dengan satu kode.</p>
+        </div>
+        <div class="card">
+          <h3>Satu HP sudah cukup.</h3>
+          <p>Buka di HP saat COD, buka di laptop saat evaluasi. Hurufnya bisa dibesarkan di Pengaturan.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ALAT -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:30px;">
+      <h2>Dan alat untuk sebelum dan sesudah COD.</h2>
+      <p class="lead" style="margin-top:12px;">Semuanya bisa dipakai kapan saja.<span class="m-only"> Geser untuk melihat yang lain.</span></p>
+    </div>
+
+    <div class="alat-tabs" role="tablist" aria-label="Pilih alat">
+      <button type="button" role="tab" id="tab-radar" aria-controls="alat-radar" aria-selected="true">Radar Penawaran</button>
+      <button type="button" role="tab" id="tab-studio" aria-controls="alat-studio" aria-selected="false" tabindex="-1">Studio Jualan</button>
+      <button type="button" role="tab" id="tab-peta" aria-controls="alat-peta" aria-selected="false" tabindex="-1">Peta 30 Hari</button>
+    </div>
+
+    <div class="alat-track" id="alatTrack">
+      <div class="alat-item on" id="alat-radar" role="tabpanel" aria-labelledby="tab-radar">
+        <picture><source media="(min-width:1024px)" srcset="img/radar-d.webp" width="1400" height="875"><img class="shot" data-zoom src="img/radar.webp" alt="Layar hasil Radar Penawaran dengan penilaian penawaran dan kalimat chat siap salin" width="728" height="1575" loading="lazy"></picture>
+        <div>
+          <h3>Radar Penawaran</h3>
+          <p>Skrining 2 menit sebelum berangkat COD. Penjual minta DP duluan? Yang chat beda dengan yang datang? Radar memberi hijau, kuning, atau merah, plus kalimat siap salin untuk bertanya atau mundur sopan.</p>
+        </div>
+      </div>
+      <div class="alat-item" id="alat-studio" role="tabpanel" aria-labelledby="tab-studio">
+        <picture><source media="(min-width:1024px)" srcset="img/studio-d.webp" width="1400" height="875"><img class="shot" data-zoom src="img/studio.webp" alt="Layar Studio Jualan: data emas yang mau dijual dan template caption feed, status WhatsApp, dan teks katalog" width="728" height="1575" loading="lazy"></picture>
+        <div>
+          <h3>Studio Jualan</h3>
+          <p>Isi data emasmu sekali, lalu salin caption feed, status WhatsApp, teks katalog, dan skrip balasan untuk pembeli yang buru-buru atau yang menawar sadis.</p>
+        </div>
+      </div>
+      <div class="alat-item" id="alat-peta" role="tabpanel" aria-labelledby="tab-peta">
+        <picture><source media="(min-width:1024px)" srcset="img/peta-d.webp" width="1400" height="875"><img class="shot" data-zoom src="img/peta.webp" alt="Layar Peta 30 Hari: tugas hari 22 dan 4 minggu dengan hari yang sudah selesai ditandai hijau" width="728" height="1575" loading="lazy"></picture>
+        <div>
+          <h3>Peta 30 Hari</h3>
+          <p>Satu fokus per hari dalam 4 minggu. Tinggal centang, besok hari berikutnya terbuka. Minggu latihan menghitung jumlah latihan Zona Harga kamu.</p>
+        </div>
+      </div>
+    </div>
+    <div class="alat-dots" id="alatDots" aria-hidden="true">
+      <button type="button" class="on" data-i="0" aria-label="Alat 1"></button>
+      <button type="button" data-i="1" aria-label="Alat 2"></button>
+      <button type="button" data-i="2" aria-label="Alat 3"></button>
+    </div>
+
+    <p class="also">Juga ada Pusat Darurat (tombol merah di setiap layar), 3 Bonus Cetak (Kartu Saku SOP COD, 12 Caption + 8 Skrip Closing, Ceklis Darurat Tertipu), dan Pindah Progres untuk ganti HP.</p>
+  </div>
+</section>
+
+<!-- SUPAYA JELAS -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:28px;">
+      <h2>Supaya jelas dari awal</h2>
+    </div>
+    <div class="grid grid-2">
+      <div class="card clear-card clear-yes">
+        <h3>Ternak Emas bisa</h3>
+        <p>membantu kamu memisahkan emas simpanan dan emas yang diputar, menghitung harga beli dan jual yang masuk akal dari angka hari itu, menuntun urutan cek fisik di meja COD supaya gak ada langkah yang terlewat, mencatat setiap putaran apa adanya, dan memberi urutan langkah kalau kamu merasa tertipu.</p>
+      </div>
+      <div class="card clear-card clear-no">
+        <h3>Ternak Emas bukan</h3>
+        <p>janji untung. Harga emas bisa turun dan margin bisa nol, keputusan transaksi tetap di tanganmu. Bukan alat uji keaslian laboratorium: kalau ragu, jangan bayar, verifikasi dulu ke Butik Logam Mulia atau Jasa Sertifikasi Pegadaian. Bukan sumber harga otomatis, harga butik dan buyback kamu ketik sendiri dari sumber resmi. Bukan trading emas digital, bukan program reseller, bukan cara cepat kaya.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- UNTUK SIAPA -->
+<section>
+  <div class="wrap">
+    <div class="grid grid-2">
+      <div class="card">
+        <h3 style="margin-bottom:16px;">Cocok kalau</h3>
+        <ul class="fitlist fit-yes">
+          <li>Kamu punya emas 1 sampai 10 gram, Antam atau UBS, dan sebagian ingin diputar.</li>
+          <li>Kamu sering lihat postingan jual emas di grup FB atau WA, tapi takut ketipu.</li>
+          <li>Kamu butuh tambahan tanpa menjual emas simpanan.</li>
+          <li>Kamu lebih tenang kalau ada hitungan dan ceklis, bukan feeling.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom:16px;">Bukan untuk kamu kalau</h3>
+        <ul class="fitlist fit-no">
+          <li>Kamu cari cara cepat kaya atau untung pasti tiap minggu.</li>
+          <li>Kamu belum punya dana darurat dan mau langsung transaksi besar.</li>
+          <li>Kamu mau trading emas digital atau jual beli tanpa ketemu barangnya.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PERBANDINGAN -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:28px;">
+      <h2>Kenapa app ini, bukan cara yang biasa dicoba.</h2>
+    </div>
+    <div class="tbl-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Nebak sendiri</th>
+            <th>Tanya-tanya di grup</th>
+            <th>Jasa cek keaslian tiap transaksi</th>
+            <th class="hl">Ternak Emas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th>Tahu harga wajar</th><td>Pakai feeling</td><td>Jawabannya beda-beda</td><td>Tidak dibahas</td><td class="hl">Zona hijau atau merah dari angka hari itu</td></tr>
+          <tr><th>Cek fisik di tempat</th><td>Sering terlewat</td><td>Tergantung ingatan</td><td>Harus ke kantor dulu</td><td class="hl">6 langkah dipandu di HP</td></tr>
+          <tr><th>Pola penipuan</th><td>Gak kelihatan</td><td>Sering ketahuan telat</td><td>Tidak dibahas</td><td class="hl">Radar Penawaran sebelum berangkat</td></tr>
+          <tr><th>Catatan untung</th><td>Lupa</td><td>Gak ada</td><td>Gak ada</td><td class="hl">Buku Kas per putaran</td></tr>
+          <tr><th>Biaya</th><td>Gratis, risiko ditanggung sendiri</td><td>Gratis</td><td>Bayar setiap kali cek</td><td class="hl">Sekali bayar, tanpa langganan</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONI -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:28px;">
+      <h2>Cerita dari yang sudah pakai.</h2>
+      <p class="lead" style="margin-top:12px;"><span class="m-only">Geser untuk melihat cerita lainnya. </span>Nomor disensor untuk menjaga privasi.</p>
+    </div>
+    <div class="testi-grid">
+      <img src="img/testi1.webp" alt="Screenshot WhatsApp: tawaran emas 2 gram keluar merah, terlalu murah curigai dulu, tak lama ada yang komen sudah transfer DP tapi barang tidak ada" width="374" height="782" loading="lazy">
+      <img src="img/testi2.webp" alt="Screenshot WhatsApp: 6 langkah lolos semua, baru transfer, lalu bikin status WA pakai template dan jual lagi, untung bersih tercatat di buku kas" width="374" height="782" loading="lazy">
+      <img src="img/testi3.webp" alt="Screenshot WhatsApp: timbangan menunjukkan 0,93 gram padahal sertifikat 1 gram, layar berdiri dan pergi, akhirnya tidak jadi beli dan lega" width="374" height="782" loading="lazy">
+    </div>
+    <div class="testi-dots" id="testiDots" aria-hidden="true">
+      <button type="button" class="on" data-i="0" aria-label="Testimoni 1"></button>
+      <button type="button" data-i="1" aria-label="Testimoni 2"></button>
+      <button type="button" data-i="2" aria-label="Testimoni 3"></button>
+    </div>
+  </div>
+</section>
+
+<!-- NILAI (NARATIF, TANPA HARGA) -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:24px;">
+      <h2>Berapa yang sudah keluar selama ini?</h2>
+    </div>
+    <div class="story">
+      <p>Satu transfer DP ke penjual yang salah bisa habis ratusan ribu sampai jutaan. Satu kali beli kemahalan bisa memakan untung beberapa putaran. Satu kali beli di butik lalu jual besoknya, kamu langsung rugi di selisih harga butik dan buyback.</p>
+      <p>Jasa cek keaslian dibayar setiap transaksi. Alatnya, timbangan digital, magnet, dan senter UV, tetap perlu kamu punya sendiri, dan Ternak Emas memberi tahu cara memakainya secara berurutan.</p>
+      <p class="punch">Ternak Emas sekali bayar, tanpa langganan, dan harganya jauh di bawah satu kali salah transfer. Angkanya ada di halaman berikutnya.</p>
+    </div>
+
+    <div class="price-card">
+      <h3 class="center">Yang kamu dapat begitu masuk</h3>
+      <ul class="incl">
+        <li>Pembagi 2 Kantong dengan label layak putar per keping</li>
+        <li>Kalkulator Zona Harga, Mode Beli dan Mode Jual</li>
+        <li>Mode Meja COD 6 langkah, protokol uang, dan layar Berdiri dan pergi</li>
+        <li>Radar Penawaran</li>
+        <li>Studio Jualan: caption, status WhatsApp, katalog, skrip balasan</li>
+        <li>Buku Kas Emas Kerja, evaluasi mingguan, dan simulator ilustrasi</li>
+        <li>Peta 30 Hari</li>
+        <li>Pusat Darurat</li>
+        <li>3 Bonus Cetak: Kartu Saku SOP COD, 12 Caption + 8 Skrip Closing, Ceklis Darurat Tertipu</li>
+        <li>Pindah Progres</li>
+      </ul>
+      <div class="once-box">
+        <b>Sekali bayar, tanpa langganan.</b>
+        Semua fitur langsung terbuka, tanpa paket basic dan premium.
+      </div>
+      <div class="cta-block center">
+        <a class="btn" href="checkout.html">Mulai Bagi 2 Kantong →</a>
+        <p class="btn-note">Panduan Akses berisi kode masuk dikirim ke email yang kamu pakai saat order.</p>
+      </div>
+    </div>
+
+    <div class="flow">
+      <h3>Dari bayar sampai bagi kantong, tiga langkah.</h3>
+      <ol>
+        <li><b>Selesaikan pembayaran</b>Bisa pakai QRIS, transfer bank, atau e-wallet.</li>
+        <li><b>Buka email, klik link biru</b>Klik link biru yang diawali drive.google.com, bukan tombol “Unduh Produk”. Kalau belum ada di kotak masuk, cek folder Spam atau Promosi.</li>
+        <li><b>Masukkan kode, lalu bagi kantong</b>Buka ternakemas.netlify.app, masukkan kode dari Panduan Akses, lalu mulai bagi 2 kantong.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="wrap">
+    <div class="narrow">
+      <h2 class="center" style="margin-bottom:26px;">Pertanyaan yang sering masuk</h2>
+
+      <div class="faq-key">
+        <h3>Aku sudah bayar. Kodenya di mana?</h3>
+        <ol>
+          <li>Buka email pembelianmu.</li>
+          <li>Klik <b>link biru yang diawali drive.google.com</b>.</li>
+          <li>PDF Panduan Akses terbuka. Kodenya ada di dalamnya.</li>
+        </ol>
+      </div>
+
+      <div class="faq-key">
+        <h3>Aku sudah klik &quot;Unduh Produk&quot;, tapi gak ada kodenya.</h3>
+        <p>Gak apa-apa, kamu cuma salah klik. Balik ke email yang sama, lalu:</p>
+        <ol>
+          <li>Cari <b>link biru yang diawali drive.google.com</b>. Letaknya di atas tombol Unduh Produk.</li>
+          <li>Klik link itu, bukan tombolnya.</li>
+          <li>Kodenya ada di PDF Panduan Akses yang terbuka.</li>
+        </ol>
+      </div>
+
+      <div class="faq">
+        <details><summary>Kodenya ditolak.</summary><div class="ans">Pastikan kamu membuka ternakemas.netlify.app, lalu ketik atau salin kode dari Panduan Akses apa adanya. Huruf besar kecil, spasi, dan strip yang ikut tersalin gak masalah. Masih ditolak? Balas email pembelianmu.</div></details>
+        <details><summary>Harganya berapa?</summary><div class="ans">Harganya tertera di halaman pembayaran setelah kamu klik tombol Mulai. Sekali bayar, tanpa biaya bulanan, dan semua fitur langsung terbuka.</div></details>
+        <details><summary>Ini app yang harus di-install?</summary><div class="ans">Gak. Ternak Emas dibuka lewat browser di HP atau laptop. Supaya cepat dibuka, simpan ke layar utama HP seperti app biasa.</div></details>
+        <details><summary>Perlu bikin akun atau password?</summary><div class="ans">Gak. Cukup satu kode akses.</div></details>
+        <details><summary>Datanya ke mana?</summary><div class="ans">Tersimpan di HP kamu sendiri, bukan di server kami. Tidak ada kolom nomor rekening, nomor sertifikat, atau data penjual.</div></details>
+        <details><summary>Harga emasnya otomatis?</summary><div class="ans">Gak. Kamu ketik harga butik dan buyback dari situs resmi Logam Mulia atau aplikasi Pegadaian, supaya selalu tahu angkanya dari mana. Angka terakhir disimpan, dan app mengingatkan kalau harganya sudah lama.</div></details>
+        <details><summary>Perlu alat apa?</summary><div class="ans">Untuk COD sungguhan: timbangan digital, magnet, dan senter UV. App menjelaskan cara memakainya di tiap langkah.</div></details>
+        <details><summary>App ini bisa memastikan emasnya asli?</summary><div class="ans">Tidak sepenuhnya. App menuntun cek dasar di tempat dan mencegah kamu membayar kalau ada yang janggal. Kalau ragu, jangan bayar, verifikasi dulu ke Butik Logam Mulia atau Jasa Sertifikasi Pegadaian.</div></details>
+        <details><summary>Belum punya dana darurat?</summary><div class="ans">App masuk mode latihan. Kamu tetap bisa latihan menghitung dan memakai semua alat, sementara transaksi sungguhan disarankan ditunda dulu.</div></details>
+        <details><summary>Kalau ganti HP, catatannya ikut?</summary><div class="ans">Bisa. Buka Pindah Progres di menu Lainnya dan salin kodenya. Di HP baru, masukkan kode akses yang sama, lalu tempel kode Pindah Progres tadi.</div></details>
+        <details><summary>Berapa lama sehari?</summary><div class="ans">Tugas Peta 30 Hari sekitar 5 sampai 15 menit. Saat ada penawaran, menghitung zona harga cukup beberapa menit.</div></details>
+        <details><summary>Kalau berhenti di tengah jalan?</summary><div class="ans">Gak hangus. Peta menunggu di hari yang belum kamu selesaikan, lanjut kapan saja.</div></details>
+        <details><summary>Setelah 30 hari, terus gimana?</summary><div class="ans">Semua alat tetap bisa dipakai untuk putaran berikutnya: Zona Harga, Meja COD, Radar, Studio Jualan, dan Buku Kas.</div></details>
+        <details><summary>Ada biaya bulanan?</summary><div class="ans">Gak ada. Sekali bayar.</div></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLOSING -->
+<section class="sec-deep">
+  <div class="wrap">
+    <div class="narrow center">
+      <h2>Malam ini cukup mulai dari membagi 2 kantong.</h2>
+      <p class="lead" style="margin-top:20px;">Kamu mungkin sudah coba tanya di grup, nonton video cek keaslian, atau sekadar menyimpan emas di laci sambil menunggu waktu yang pas. Satu hal yang belum: punya hitungan dan urutan cek yang sama setiap kali ada penawaran.</p>
+      <p class="closing-line">Emasmu kerja, bukan tidur.</p>
+      <div class="cta-block">
+        <a class="btn" href="checkout.html">Mulai Bagi 2 Kantong →</a>
+        <p class="btn-note">Dibuka dari browser HP atau laptop. Tanpa install, tanpa akun.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <a class="logo" href="index.html">Ternak <em>Emas</em></a>
+    <small>© 2026 Ternak Emas. Semua hak dilindungi.</small>
+  </div>
+</footer>
+
+<div class="sticky-cta" id="stickyCta">
+  <div class="sp">
+    <b>Hitung dulu, cek dulu, baru bayar</b>
+    <small>Buka dari HP, tanpa install</small>
+  </div>
+  <a class="btn" href="checkout.html">Mulai</a>
+</div>
+
+<div class="lb" id="lightbox" role="dialog" aria-modal="true" aria-label="Tampilan app diperbesar">
+  <button type="button" class="lb-close" id="lbClose" aria-label="Tutup gambar">
+    <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5.5 5.5l9 9M14.5 5.5l-9 9" stroke="#1F2421" stroke-width="1.8" stroke-linecap="round"/></svg>
+  </button>
+  <div class="lb-inner"><img id="lbImg" alt=""></div>
+</div>
+
+<script>
+(function(){
+  var bar=document.getElementById('stickyCta');
+  var hero=document.querySelector('.hero');
+  if(!bar||!hero)return;
+  document.body.classList.add('has-sticky');
+  function check(){bar.classList.toggle('on',hero.getBoundingClientRect().bottom<0);}
+  check();
+  window.addEventListener('scroll',check,{passive:true});
+  window.addEventListener('resize',check);
+})();
+
+/* geser + titik untuk testimoni dan alat (HP) */
+function scroller(trackSel,itemSel,dotsId){
+  var track=document.querySelector(trackSel),dots=document.getElementById(dotsId);
+  if(!track||!dots)return;
+  var slides=track.querySelectorAll(itemSel),btns=dots.querySelectorAll('button');
+  function active(){
+    var mid=track.scrollLeft+track.clientWidth/2,best=0,min=Infinity;
+    for(var i=0;i<slides.length;i++){
+      var c=slides[i].offsetLeft+slides[i].offsetWidth/2,d=Math.abs(c-mid);
+      if(d<min){min=d;best=i;}
+    }
+    for(var j=0;j<btns.length;j++)btns[j].classList.toggle('on',j===best);
+  }
+  var t;
+  track.addEventListener('scroll',function(){clearTimeout(t);t=setTimeout(active,60);},{passive:true});
+  for(var k=0;k<btns.length;k++){
+    btns[k].addEventListener('click',function(){
+      var el=slides[Number(this.getAttribute('data-i'))];
+      if(!el)return;
+      track.scrollTo({left:el.offsetLeft-(track.clientWidth-el.offsetWidth)/2,behavior:'smooth'});
+    });
+  }
+  active();
+}
+scroller('.testi-grid','img','testiDots');
+scroller('#alatTrack','.alat-item','alatDots');
+
+/* tab alat (desktop) */
+(function(){
+  var tabs=document.querySelectorAll('.alat-tabs [role="tab"]');
+  function pick(tab){
+    for(var i=0;i<tabs.length;i++){
+      var on=tabs[i]===tab;
+      tabs[i].setAttribute('aria-selected',on?'true':'false');
+      tabs[i].setAttribute('tabindex',on?'0':'-1');
+      document.getElementById(tabs[i].getAttribute('aria-controls')).classList.toggle('on',on);
+    }
+  }
+  for(var i=0;i<tabs.length;i++){
+    tabs[i].addEventListener('click',function(){pick(this);});
+    tabs[i].addEventListener('keydown',function(e){
+      var idx=Array.prototype.indexOf.call(tabs,this),n=null;
+      if(e.key==='ArrowRight')n=tabs[(idx+1)%tabs.length];
+      if(e.key==='ArrowLeft')n=tabs[(idx-1+tabs.length)%tabs.length];
+      if(n){e.preventDefault();pick(n);n.focus();}
+    });
+  }
+})();
+
+/* lightbox: membuka versi gambar yang sedang tampil (HP atau desktop) */
+(function(){
+  var lb=document.getElementById('lightbox'),img=document.getElementById('lbImg'),close=document.getElementById('lbClose');
+  var last=null;
+  function open(src,alt){
+    img.src=src;img.alt=alt||'';
+    lb.classList.add('on');document.body.style.overflow='hidden';close.focus();
+  }
+  function shut(){lb.classList.remove('on');img.removeAttribute('src');document.body.style.overflow='';if(last)last.focus();}
+  var zs=document.querySelectorAll('[data-zoom]');
+  for(var i=0;i<zs.length;i++){
+    zs[i].setAttribute('tabindex','0');
+    zs[i].setAttribute('role','button');
+    zs[i].addEventListener('click',function(){last=this;open(this.currentSrc||this.src,this.alt);});
+    zs[i].addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();this.click();}});
+  }
+  close.addEventListener('click',shut);
+  lb.addEventListener('click',function(e){if(e.target===lb)shut();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&lb.classList.contains('on'))shut();});
+})();
+</script>
+</body>
+</html>
